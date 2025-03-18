@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    width: 50px;
+    background-color: green;
+    margin: 5px;
+}
+
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    right: -10px;
+    border: 1px solid salmon;
+}
