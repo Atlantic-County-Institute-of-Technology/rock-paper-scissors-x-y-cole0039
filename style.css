@@ -1,3 +1,6 @@
+ .grad {
+background-image: linear-gradient(red, blue);
+}
 body {
     display: flex;
     flex-direction: row;
@@ -7,13 +10,29 @@ body {
     width: 50px;
     background-color: green;
     margin: 5px;
+    transition: transform 0.1s ease, background-color 0.3s;
 }
 
 
 .container{
+    top: 200px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    right: -10px;
-    border: 1px solid salmon;
+    left: 50%;
+    translate: -50%;
+    border: 1px solid rgb(150, 114, 250);
+    position: absolute;
 }
+
+  .button:active {
+    transform: translateY(2px); 
+}
+
+#button1 {
+    background-color: red;
+}
+
+#button2 {
+    background-color: red;
+} 
