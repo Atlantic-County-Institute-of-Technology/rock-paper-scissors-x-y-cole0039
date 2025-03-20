@@ -1,4 +1,4 @@
- .grad {
+  .grad {
 background-image: linear-gradient(red, blue);
 }
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 .button{
-    width: 50px;
+    width: 150px;
     background-color: green;
     margin: 5px;
     transition: transform 0.1s ease, background-color 0.3s;
@@ -21,8 +21,10 @@ body {
     flex-direction: row;
     left: 50%;
     translate: -50%;
-    border: 1px solid rgb(150, 114, 250);
+    border: 1px solid rgb(114, 250, 209);
     position: absolute;
+    display: center;
+    
 }
 
   .button:active {
@@ -35,4 +37,40 @@ body {
 
 #button2 {
     background-color: red;
-} 
+}  
+
+.Versus {
+    background-image: linear-gradient(red, blue);
+position: relative;
+margin-left: 944px;
+display: center;
+margin-top: 130px;
+
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    right: 100px;
+    position: relative;
+}
+.square2 {
+    height: 50px;
+    width: 50px;
+    right: 50px;
+    background-color: #555; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
