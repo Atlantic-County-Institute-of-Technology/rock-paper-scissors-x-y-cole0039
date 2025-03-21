@@ -28,15 +28,37 @@ body {
 }
 
   .button:active {
-    transform: translateY(2px); 
+    transform: translateY(0.5px); 
 }
 
 #button1 {
-    background-color: red;
+    background-color: green;
+    height: 150px;
+    width: 150px;
 }
 
 #button2 {
-    background-color: red;
+    background-color: green;
+    height: 150px;
+    width: 150px;
+}  
+
+#button3 {
+    background-color: green;
+    height: 150px;
+    width: 150px;
+}  
+
+#button4 {
+    background-color: green;
+    height: 150px;
+    width: 150px;
+}  
+
+#button5 {
+    background-color: green;
+    height: 150px;
+    width: 150px;
 }  
 
 .Versus {

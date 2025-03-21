@@ -25,7 +25,7 @@ For this part, we'll be designing several systems that work together to simulate
 		 - [ ] Clear: Clear the current win/loss/game tracking.
 # Part II: X, Y
 ___
-![[rock-paper-scissors-lizard-spock-graphic.png]]
+![[rock-paper-scissors-lizard-spock-graphic.png]!
 
 For this part, create two additional office items to contend with our rock, paper, and scissors. Similar to Rock, Paper, Scissors, Lizard Spock.
 
