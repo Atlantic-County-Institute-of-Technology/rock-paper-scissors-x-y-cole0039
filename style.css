@@ -1,5 +1,6 @@
   .grad {
 background-image: linear-gradient(red, blue);
+padding: 40px;
 }
 body {
     display: flex;
@@ -10,7 +11,7 @@ body {
     width: 150px;
     background-color: green;
     margin: 5px;
-    transition: transform 0.1s ease, background-color 0.3s;
+
 }
 
 
@@ -25,41 +26,47 @@ body {
     position: absolute;
     display: center;
     
+    
 }
 
-  .button:active {
-    transform: translateY(0.5px); 
-}
 
-#button1 {
-    background-color: green;
-    height: 150px;
-    width: 150px;
-}
 
-#button2 {
-    background-color: green;
-    height: 150px;
-    width: 150px;
-}  
+#Rock {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    background-color: green; 
+  }
 
-#button3 {
-    background-color: green;
-    height: 150px;
-    width: 150px;
-}  
+#Paper {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    background-color: green; 
+  }
 
-#button4 {
-    background-color: green;
-    height: 150px;
-    width: 150px;
-}  
+#Scissors {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    background-color: green; 
+    border-color: green;
+  }
 
-#button5 {
-    background-color: green;
-    height: 150px;
-    width: 150px;
-}  
+#Spock {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    background-color: green; 
+  }
+
+#Lizard {
+        width: 150px; 
+        height: 150px; 
+        border-radius: 50%; 
+        background-color: green; 
+      }
+
 
 .Versus {
     background-image: linear-gradient(red, blue);
@@ -70,14 +77,18 @@ margin-top: 130px;
 
 }
 
-.square {
+
+.circle {
     height: 50px;
     width: 50px;
+    right: 50px;
     background-color: #555;
     right: 100px;
     position: relative;
+
 }
-.square2 {
+
+.circle2 {
     height: 50px;
     width: 50px;
     right: 50px;
