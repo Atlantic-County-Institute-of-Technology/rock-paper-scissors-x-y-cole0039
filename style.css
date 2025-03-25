@@ -1,10 +1,11 @@
   .grad {
-background-image: linear-gradient(red, blue);
+
 padding: 40px;
 }
 body {
     display: flex;
     flex-direction: row;
+    background-color: rgba(134, 238, 230, 0.779);
 }
 
 .button{
@@ -22,7 +23,7 @@ body {
     flex-direction: row;
     left: 50%;
     translate: -50%;
-    border: 1px solid rgb(114, 250, 209);
+
     position: absolute;
     display: center;
     
@@ -36,6 +37,8 @@ body {
     height: 150px; 
     border-radius: 50%; 
     background-color: green; 
+position: relative;
+    margin: -20px;
   }
 
 #Paper {
@@ -43,6 +46,8 @@ body {
     height: 150px; 
     border-radius: 50%; 
     background-color: green; 
+  margin: -60px;
+  position: relative;
   }
 
 #Scissors {
@@ -50,13 +55,16 @@ body {
     height: 150px; 
     border-radius: 50%; 
     background-color: green; 
-    border-color: green;
+  margin: -100px;
+  position: relative;
   }
 
 #Spock {
     width: 150px; 
     height: 150px; 
     border-radius: 50%; 
+margin: -120px;
+position: relative;
     background-color: green; 
   }
 
@@ -65,11 +73,13 @@ body {
         height: 150px; 
         border-radius: 50%; 
         background-color: green; 
+margin: -140px;
+position: relative;
       }
 
 
 .Versus {
-    background-image: linear-gradient(red, blue);
+  
 position: relative;
 margin-left: 944px;
 display: center;
@@ -85,7 +95,7 @@ margin-top: 130px;
     background-color: #555;
     right: 100px;
     position: relative;
-
+    top: 130px;
 }
 
 .circle2 {
