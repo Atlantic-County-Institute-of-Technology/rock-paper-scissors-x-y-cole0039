@@ -1,119 +1,31 @@
-  .grad {
-
-padding: 40px;
+.h1 {
+  text-align: center;
 }
+
+/* contianer of the buttons making them all move in center */
+.container {
+  position: relative;
+  text-align: center;
+}
+
+/* background color */
 body {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(134, 238, 230, 0.779);
+  background-color: cornflowerblue;
 }
 
-.button{
-    width: 150px;
-    background-color: green;
-    margin: 5px;
+/* button style */
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 50%;
 
 }
-
-
-.container{
-    top: 200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    left: 50%;
-    translate: -50%;
-
-    position: absolute;
-    display: center;
-    
-    
+/* the thing that shows if you win or lose and what the computer chose */
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+  margin: auto;
+  text-align: center;
 }
-
-
-
-#Rock {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-    background-color: green; 
-position: relative;
-    margin: -20px;
-  }
-
-#Paper {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-    background-color: green; 
-  margin: -60px;
-  position: relative;
-  }
-
-#Scissors {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-    background-color: green; 
-  margin: -100px;
-  position: relative;
-  }
-
-#Spock {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-margin: -120px;
-position: relative;
-    background-color: green; 
-  }
-
-#Lizard {
-        width: 150px; 
-        height: 150px; 
-        border-radius: 50%; 
-        background-color: green; 
-margin: -140px;
-position: relative;
-      }
-
-
-.Versus {
-  
-position: relative;
-margin-left: 944px;
-display: center;
-margin-top: 130px;
-
-}
-
-
-.circle {
-    height: 50px;
-    width: 50px;
-    right: 50px;
-    background-color: #555;
-    right: 100px;
-    position: relative;
-    top: 130px;
-}
-
-.circle2 {
-    height: 50px;
-    width: 50px;
-    right: 50px;
-    background-color: #555; 
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
