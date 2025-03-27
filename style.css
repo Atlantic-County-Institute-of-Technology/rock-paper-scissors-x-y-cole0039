@@ -29,3 +29,26 @@ button {
   text-align: center;
 }
 
+#playerScore, #computerScore {
+  border-style: solid;
+  border-color: red;
+}
+
+
+.score {
+text-align: center;
+position: relative;
+display: flex;
+justify-content: center;
+font-size: 24px;
+font-weight: bold;
+color: #333;
+gap: 20px; /* space between score */
+}
+
+.score span {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
