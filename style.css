@@ -28,13 +28,17 @@ button {
   margin: auto;
   text-align: center;
 }
-
-#playerScore, #computerScore {
-  border-style: solid;
-  border-color: red;
+/* Changes player score to green and red */
+#playerScore {
+  color: rgb(130, 255, 130);
+  font-weight: bold;
+}
+#computerScore {
+  color: red;
+  font-weight: bold;
 }
 
-
+/* This is making the score next to each other in the middle */
 .score {
 text-align: center;
 position: relative;
@@ -51,4 +55,34 @@ gap: 20px; /* space between score */
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(238, 159, 159) 50%, rgb(207, 39, 39) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+  
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
 }
